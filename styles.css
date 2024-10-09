@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    font-weight: normal;
+    color: #555;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.login-btn {
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero {
+    max-width: 50%;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero strong {
+    font-size: 48px;
+    color: #000;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.shop-now-btn, .contact-us-btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.shop-now-btn {
+    background-color: #000;
+    color: #fff;
+}
+
+.contact-us-btn {
+    background-color: #fff;
+    color: #000;
+}
+
+.shop-now-btn:hover, .contact-us-btn:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.scroll-icon {
+    font-size: 24px;
+    margin-top: 10px;
+}
